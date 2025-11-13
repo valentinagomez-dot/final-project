@@ -5,3 +5,55 @@ body{
 	background-size:1500px;
 }
 
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 20px;
+ text-align: left;
+}
+
+ul li{
+    display: inline;
+	margin: 20px;
+}
+
+li a{
+	color: #c29629;
+	font-size: 18px;
+}
+
+ul li a:hover{
+	color: #a87d3b;
+}
+
+.AboutUs{
+	margin: 0;
+	background-color:#f5b8c6;
+}
+
+.AboutUs table {
+	
+	color:#9c682d;
+}
+
+.AboutUs h1 {
+	font-size: 48px;
+	margin: 20px;
+	font-weight: bold;
+}
+
+.AboutUs h2 {
+	font-size: 28px;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+.AboutUs {
+	width: 70%;
+	font-size: 20px;
+	line-height: 1.6;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+
