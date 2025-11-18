@@ -1,59 +1,64 @@
-body{
+.active{
 	margin: 0;
 	height: 100;
 	background-image: url(bkg.jpg);
 	background-size:1500px;
 }
 
-ul {
- list-style: none;
- margin: 0;
- padding: 20px;
- text-align: left;
+ul{
+	list-style-type: none;
+	background-color: #f5d5f4;
+	overflow: hidden;
 }
-
 ul li{
-    display: inline;
-	margin: 20px;
+	float: left;
+	text-align: center;
 }
-
-li a{
-	color: #c29629;
-	font-size: 18px;
+ul li a{
+	text-decoration: none;
+	display: block;
+	width: 75px;
+	padding: 10px 10px;
+	color: #fa19bd;
 }
-
 ul li a:hover{
-	color: #a87d3b;
+	background-color: #48eaf7;
+	color: #fa0276;
 }
-
-.AboutUs{
-	margin: 0;
-	background-color:#f5b8c6;
-}
-
-.AboutUs table {
-	
-	color:#9c682d;
-}
-
-.AboutUs h1 {
-	font-size: 48px;
-	margin: 20px;
+.activeLi{
 	font-weight: bold;
+	border-bottom: solid 2px #fa0276 ;
 }
 
-.AboutUs h2 {
-	font-size: 28px;
-	margin-bottom: 0;
-	font-weight: normal;
+.title {
+    color: #c29629;
+    font-size: 40px;
 }
 
-.AboutUs {
-	width: 70%;
-	font-size: 20px;
-	line-height: 1.6;
-	margin-top: 20px;
-	text-align: justify;
+.subtitle {
+    color: #c29629;
+    font-size: 26px;
 }
 
+.text {
+    color: #c29629;
+    font-size: 50px;
+    width: 80%;
+}
 
+.menu {
+    background: white;
+    border: 1px solid #d8a7b8;
+    width: 220px;
+    text-align: center;
+}
+
+.menu img {
+    width: 200px;
+    height: auto;
+}
+
+.menu title {
+    font-weight: bold;
+    font-size: 20px;
+    color
