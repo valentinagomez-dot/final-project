@@ -1,57 +1,55 @@
 .active{
-	margin: 0;
-	height: 100;
-	background-image: url(bkg.jpg);
-	background-size:1500px;
+ margin: 0;
+ height: 100;
+ background-image: url(bkg.jpg);
+ background-size:1500px;
 }
 
 ul{
-	list-style-type: none;
-	background-color: #f5d5f4;
-	overflow: hidden;
+ list-style-type: none;
+ background-color: #f5d5f4;
+ overflow: hidden;
 }
 ul li{
-	float: left;
-	text-align: center;
+ float: left;
+ text-align: center;
 }
 ul li a{
-	text-decoration: none;
-	display: block;
-	width: 75px;
-	padding: 10px 10px;
-	color: #fa19bd;
+ text-decoration: none;
+ display: block;
+ width: 75px;
+ padding: 10px 10px;
+ color: #fa19bd;
 }
 ul li a:hover{
-	background-color: #48eaf7;
-	color: #fa0276;
+ color: #fa0276;
 }
+
+.about {
+ background-color: #ffc2ef;
+}
+
 .activeLi{
-	font-weight: bold;
-	border-bottom: solid 2px #fa0276 ;
+ font-weight: bold;
+ border-bottom: solid 2px #fa0276 ;
 }
 
 .title {
-    color: #c29629;
+    color: #9c682d;
     font-size: 40px;
 }
 
 .subtitle {
-    color: #c29629;
+    color: #9c682d;
     font-size: 26px;
 }
 
 .text {
-    color: #c29629;
-    font-size: 50px;
+    color: #9c682d;
+    font-size: 35px;
     width: 80%;
 }
 
-.menu {
-    background: white;
-    border: 1px solid #d8a7b8;
-    width: 220px;
-    text-align: center;
-}
 
 .menu img {
     width: 200px;
@@ -62,3 +60,33 @@ ul li a:hover{
     font-weight: bold;
     font-size: 20px;
     color
+}
+
+.menu {
+ background-color: #ffc2ef;
+}
+
+.minis {
+    background-color: #d9b08c;
+    margin: 0;
+    padding: 0;
+}
+
+.description { 
+  color: #9c682d;
+}
+
+.table {
+    padding: 40px 0;
+}
+
+
+.img {
+    width: 250px;
+}
+
+.flavor {
+    color: #9c682d;
+    font-size: 18px;
+    font-weight: bold;
+}
