@@ -29,6 +29,10 @@ ul li a:hover{
  background-color: #ffc2ef;
 }
 
+.about a {
+    color: #9c682d;
+}
+
 .activeLi{
  font-weight: bold;
  border-bottom: solid 2px #fa0276 ;
@@ -66,14 +70,30 @@ ul li a:hover{
  background-color: #ffc2ef;
 }
 
+.menu a {
+    color:#9c682d;
+}
+
 .minis {
     background-color: #d9b08c;
     margin: 0;
     padding: 0;
 }
 
+.minis a {
+    color: #9c682d;
+}
+
 .description { 
   color: #9c682d;
+}
+
+.Filled a {
+    color: #9c682d;
+}
+
+.Frosted a {
+    color: #9c682d;
 }
 
 .table {
